@@ -1,0 +1,6 @@
+﻿select
+    abs(Indoor - Outdoor) as Difference
+into
+	output
+from
+	input
